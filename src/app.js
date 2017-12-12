@@ -23,7 +23,7 @@ export class App {
 
   addCustomer(){
     if (this.customerName && this.customerEmail && this.customerPhone) {
-      this.customers.push(new Customer(this.customerEmail, this.customerEmail,
+      this.customers.push(new Customer(this.customerName, this.customerEmail,
       this.customerPhone));
 
       // Store in local Storage
